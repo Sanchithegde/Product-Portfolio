@@ -458,3 +458,14 @@ header h1 {
 @media (min-width: 900px) {
     .case-grid > .card-link { flex-basis: calc((100% - 60px) / 3); }
 }
+
+/* --- Intro hook line --- */
+.hero-line {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color, #1a1a1a);
+    margin: 10px 0 10px;
+}
+@media (max-width: 600px) {
+    .hero-line { font-size: 1.25rem; }
+}
